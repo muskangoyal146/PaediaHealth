@@ -1,0 +1,19 @@
+body{
+	background-image: url("https://www.optimecare.com/wp-content/uploads/2016/06/medical-background.png");
+	padding: 3%;
+}
+
+h2{
+	font-family: Montserrat;
+	margin: auto;
+
+}
+.form-group{
+	font-family: Montserrat;
+}
+a:link {
+	font-size: 25px;
+	color: rgb(82, 82, 230); 
+	margin-left: 60px; 
+	font-family: Montserrat;
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PaediaHealth-Generate a Diet Plan for yor child</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro:700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="dietplan.css">
+  <script src="select_diet.js"></script>
+</head>
+<body>
+
+	<h2>Enter your child's details and generate a WHO approved diet plan</h2>
+	<br><br>
+
+	<form class="form-inline" id="age-wt">
+  <div class="form-group">
+    <label for="exampleInputName2"><b>Age</b></label>
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="in months">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2"><b>Weight</b></label>
+    <input type="text" class="form-control" id="exampleInputEmail2" placeholder="in kg">
+  </div>
+  <button type="submit" class="btn btn-primary" id="generate">Generate diet plan </button>
+</form>
+<br>
+<a href="#" id="anchor" target="_blank">View diet plan for your child</a>
+<p id="disp"></p>
+</body>
+</html>

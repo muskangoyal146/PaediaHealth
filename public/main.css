@@ -1,0 +1,74 @@
+body{
+	margin:20px;
+	padding: 10px;
+	background-image: url("https://www.optimecare.com/wp-content/uploads/2016/06/medical-background.png");
+	font-family: Montserrat;
+	font-size: 20px;
+}
+
+h1{
+	font-family: Montserrat;
+	font-weight: 600px;
+	font-size: 50px;
+	margin-left: 80px;
+
+}
+.heading{
+	margin-left: 5px;
+	font-family: Montserrat;
+}
+#sign{
+	font-color:white;
+}
+.content{
+	background-color: rgb(8, 23, 48);
+	font-family: Merriweather;
+	color:white;
+	padding: 15px 25px 15px 25px;
+}
+.navbar-default{
+	background-color:rgb(7, 16, 30,0.9);
+	font-family: Montserrat;
+	color:white;
+}
+
+#login{
+	background-color:rgb(7, 16, 30);
+}
+#ele{
+	width: 20%;
+	height: 40%;
+	margin:1.66%;
+	border-left: 5px solid rgb(44, 113, 142);
+	border-right: 5px solid rgb(44, 113, 142);
+	border-top : 5px solid rgb(44, 113, 142);
+
+
+	padding: 10px;
+}
+
+#main_icons{
+	background-color: white;
+}
+#data{
+	font-family: Montserrat;
+	font-size: 30px;
+	color: rgb(44, 113, 142);
+	margin-left: 80px;
+	border-left: 5px solid rgb(44, 113, 142);
+	border-right: 5px solid rgb(44, 113, 142);
+	border-bottom : 5px solid rgb(44, 113, 142);
+	padding: 10px;
+}
+img{
+	/*margin: auto auto auto auto;*/
+	margin-left: 70px;
+	height: 200px;
+	width:200px;
+}
+a:hover{
+	opacity: 0.5;
+}
+img:hover{
+	opacity: 0.5;
+}

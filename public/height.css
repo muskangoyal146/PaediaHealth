@@ -1,0 +1,18 @@
+body{
+	background-color: rgb(7, 16, 30,0.9);
+}
+
+h1{
+	font-family: Montserrat;
+	color:white;
+	font-weight: 600px;
+	margin-left: 23%
+}
+
+img{
+	margin-left: 20%
+}
+
+img:hover{
+	opacity: 0.8;
+}

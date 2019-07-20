@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PaediaHealth-Vaccination Schedule</title>
+	<script type="text/javascript" src="vaccine.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro:700" rel="stylesheet">
+	<!--<link rel="stylesheet" type="text/css" href="vaccine.css">-->
+	<style>
+		h1{
+	font-family: Montserrat;
+	margin-left: 35%;
+	color:rgb(7, 16, 30);
+
+          }
+
+        body{
+	background-image: url("https://www.optimecare.com/wp-content/uploads/2016/06/medical-background.png");
+        }
+
+        .table{
+        	margin-left: 27%;
+        	background-color: rgb(8, 23, 48);
+        	color: white;
+        	font-family: Montserrat;
+
+        }
+
+        td{
+        	padding: 20px;
+        	margin: auto;
+        	border-top:solid 1px white;
+        	
+
+        }
+        th{
+        	padding: 20px;
+        	margin: auto;
+        	border-top:solid 1px white;
+        }
+
+
+
+	</style>
+</head>
+<body>
+	<h1>Vaccination Schedule</h1>
+
+	<table class="table table-bordered">
+		<tr>
+			<th>AGE</th>
+			<th>VACCINE</th>
+			<th>SCHEDULED DATE</th>
+			
+		</tr>
+
+		<tr>
+			<td>Birth</td>
+			<td>BCG/Hepatitis B/OPV</td>
+			<td id="zero">------</td>
+		</tr>
+
+		<tr>
+			<td>1 Month</td>
+			<td>Hepatitis B/OPV</td>
+			<td id="one">------</td>
+		</tr>
+
+		<tr>
+			<td>2 Month</td>
+			<td>D-TAP, PCV, Rotavirus</td>
+			<td id="two">------</td>
+		</tr>
+
+		<tr>
+			<td>6 Month</td>
+			<td>Hepatitis B/OPV/Measles/Flu</td>
+			<td id="six">------</td>
+		</tr>
+
+		
+		<tr>
+			<td>12 Months</td>
+			<td>Typhoid/TCV Vaccine</td>
+			<td id="twelve">------</td>
+		</tr>
+		  
+    </table>
+
+</body>
+</html>
